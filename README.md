@@ -49,3 +49,8 @@ We don't need to worry about scaleability; Cloudfront does that for us! It is ab
 
 ## Monitoring & Alerting
 Cloudfront provides its own metrics by default and works seamlessly with CloudWatch for Alerting. For this project, a user-requests-alarm is created as a demonstration.
+
+
+## Access Website
+Once the infrastructure is in place and the website content is uploaded, the website can be accessed via the Cloudfront Distribution Domain. This can be found 
+in the Cloudfront service in AWS i.e https://<domain>.cloudfront.net/index.html
